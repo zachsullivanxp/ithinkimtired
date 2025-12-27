@@ -1,0 +1,677 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "textfont";
+  src: url("https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Welbut__.ttf?v=1682548618390");
+}
+
+.references {
+  font-family: "textfont", sans-serif;
+  color: white;
+  font-size: 20px;
+  display: flex;
+
+  position: absolute;
+
+  bottom: 425px;
+  left: 250px;
+}
+
+.referencesatag {
+  font-family: "textfont", sans-serif;
+  color: white;
+  font-size: 25px;
+  display: flex;
+
+  position: absolute;
+  right: 840px;
+  bottom: 325px;
+}
+
+.aboutpage {
+  font-family: "textfont", sans-serif;
+  color: white;
+  font-size: 20px;
+  display: flex;
+
+  position: absolute;
+
+  bottom: 425px;
+  left: 30px;
+}
+
+.aboutpageatag {
+  font-family: "textfont", sans-serif;
+  color: white;
+  font-size: 25px;
+  display: flex;
+
+  position: absolute;
+  right: 670px;
+  bottom: 325px;
+}
+
+.titlecard {
+  font-family: "textfont", sans-serif;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 670px;
+  bottom: 425px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #0000;
+
+  transform: scale(0.4, 0.4);
+  -ms-transform: scale(0.4, 0.4);
+  -webkit-transform: scale(0.4, 0.4);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.titlecard2 {
+  font-family: "textfont", sans-serif;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 665px;
+  bottom: 455px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #0000;
+
+  transform: scale(0.4, 0.4);
+  -ms-transform: scale(0.4, 0.4);
+  -webkit-transform: scale(0.4, 0.4);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.textanimation {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(43), cursor 0.4s step-end infinite alternate;
+  animation-fill-mode: forwards;
+}
+
+.textanimation2 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(43), cursor 0.4s step-end infinite alternate;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation3 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(34), cursor 0.4s step-end infinite alternate;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation4 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(48), cursor 0.4s step-end infinite alternate;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation5 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(48), cursor 0.4s step-end infinite alternate;
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation6 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(34), cursor 0.4s step-end infinite alternate;
+
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation7 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(20), cursor 0.4s step-end infinite alternate;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation8 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(17), cursor 0.4s step-end infinite alternate;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation9 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(26), cursor 0.4s step-end infinite alternate;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation10 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(24), cursor 0.4s step-end infinite alternate;
+  animation-delay: 16s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation11 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*   opacity: 0; */
+  animation: typing 2s steps(73), cursor 0.4s step-end infinite alternate;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation12 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(99), cursor 0.4s step-end infinite alternate;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation13 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(75), cursor 0.4s step-end infinite alternate;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation14 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(104), cursor 0.4s step-end infinite alternate;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation15 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(94), cursor 0.4s step-end infinite alternate;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation16 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(73), cursor 0.4s step-end infinite alternate;
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation17 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(105), cursor 0.4s step-end infinite alternate;
+  animation-delay: 18s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation18 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(59), cursor 0.4s step-end infinite alternate;
+  animation-delay: 21s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation19 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(87), cursor 0.4s step-end infinite alternate;
+  animation-delay: 24s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation20 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(76), cursor 0.4s step-end infinite alternate;
+  animation-delay: 27s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation21 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(108), cursor 0.4s step-end infinite alternate;
+  animation-delay: 30s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation22 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(91), cursor 0.4s step-end infinite alternate;
+  animation-delay: 33s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation23 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(91), cursor 0.4s step-end infinite alternate;
+  animation-delay: 36s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation24 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(108), cursor 0.4s step-end infinite alternate;
+  animation-delay: 39s;
+  animation-fill-mode: forwards;
+}
+
+.textanimation25 {
+  font-family: "textfont", sans-serif;
+  /*   border-right: 5px solid; */
+  width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(73), cursor 0.4s step-end infinite alternate;
+  animation-delay: 42s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* .paragraph-typing { display: inline-block; } */
+.paragraph-typing {
+  font-size: 50px;
+  color: white;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 100px;
+  right: 250px;
+
+  transform: scale(0.4, 0.4);
+  -ms-transform: scale(0.4, 0.4);
+  -webkit-transform: scale(0.4, 0.4);
+}
+
+.paragraph-typing-page3 {
+  font-size: 50px;
+  color: white;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 125px;
+  right: 460px;
+
+  transform: scale(0.4, 0.4);
+  -ms-transform: scale(0.4, 0.4);
+  -webkit-transform: scale(0.4, 0.4);
+}
+
+.paragraph-typingyellow {
+  font-size: 20px;
+  color: yellow;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  padding-left: 3%;
+  padding-top: 2%;
+}
+
+.paragraph-typingyellow2 {
+  font-size: 20px;
+  color: yellow;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 270px;
+  left: 58px;
+}
+
+.paragraph-typingyellow3 {
+  font-size: 20px;
+  color: yellow;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 490px;
+  left: 58px;
+}
+
+.paragraph-typingyellow4 {
+  font-size: 20px;
+  color: yellow;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 655px;
+  left: 58px;
+}
+
+.paragraph-typingblue {
+  font-size: 20px;
+  color: blue;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  padding-bottom: 20%;
+  padding-left: 35%;
+}
+
+.paragraph-typingblue2 {
+  font-size: 20px;
+  color: blue;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 380px;
+  right: 38px;
+}
+
+.paragraph-typingblue3 {
+  font-size: 20px;
+  color: blue;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 600px;
+  right: 18px;
+}
+
+.paragraph-typingblue4 {
+  font-size: 20px;
+  color: blue;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 765px;
+  right: 18px;
+}
+
+a:nth-child(3) {
+  color: red;
+}
+
+.page4atag {
+  font-family: "textfont", sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  right: 800px;
+  bottom: 50px;
+  opacity: 0; /* set initial opacity to 0 */
+  animation: fadeIn 4s forwards;
+  animation-delay: 45s;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flashing background test */
+/* .flash {
+  
+  animation: flash 1s infinite;
+  animation-delay: 20s;
+}
+
+@keyframes flash {
+  0% {
+    background-color: black;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: black;
+  }
+  30% {
+    background-color: red;
+  }
+  40% {
+    background-color: black;
+  }
+   50% {
+    background-color: red;
+  }
+  60% {
+    background-color: black;
+  }
+   70% {
+    background-color: red;
+  }
+  80% {
+    background-color: black;
+  }
+   90% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+} */
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/*   firebase */
+.container {
+  /*     background-color: yellow; */
+
+  text-align: center;
+}
+
+input {
+  font-family: "textfont", sans-serif;
+  color: white;
+  height: 40px;
+  border: 1px solid #c4c4c4;
+  /*   border-radius: 15px;  */
+  background-color: transparent;
+  padding: 5px 10px 5px 10px;
+}
+
+#chat-container {
+  font-family: "textfont", sans-serif;
+  font-size: 20px;
+  /*   background-color: yellow; */
+
+  margin: auto;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.response {
+  font-family: "textfont", sans-serif;
+
+  color: white;
+  margin: 0.2em;
+}
+
+.page6-atag {
+  font-family: "textfont", sans-serif;
+  position: absolute;
+  bottom: 20px;
+  right: 810px;
+}
+
+.bigasstext {
+  font-family: "textfont", sans-serif;
+  font-size: 70px;
+  color: white;
+  display: inline-block;
+  /*   align-items: center;
+  justify-content: center; */
+  position: absolute;
+  right: 905px;
+  bottom: 300px;
+
+  transform: scale(0.4, 0.4);
+  -ms-transform: scale(0.4, 0.4);
+  -webkit-transform: scale(0.4, 0.4);
+  opacity: 0; /* set initial opacity to 0 */
+  animation: fadeIn 2s forwards;
+  animation-delay: 25s;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

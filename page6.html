@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!--Update with your name-->
+    <title>i think im tired</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include firebase scripts from CDN      -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase.js"></script>
+
+    <!-- Import the webpage's javascript file -->
+    <script src="page6-firebase.js" defer></script>
+  </head>
+
+  <body>
+    <div class="page6-atag">
+      <!--    <p>
+    page to chill
+      </p> -->
+      <a href="index.html">let's go home</a>
+    </div>
+
+    <!-- This input form controls submission of text input -->
+    <div class="container">
+      <form id="text-input-form" onsubmit="return false">
+        <input
+          type="text"
+          id="text-input-entry"
+          placeholder="Insert Something Here"
+        />
+        <input
+          type="submit"
+          id="text-input-submit"
+          onclick="submitlock()"
+          value="Submit"
+        />
+      </form>
+
+      <div id="chat-container"></div>
+    </div>
+  </body>
+</html>

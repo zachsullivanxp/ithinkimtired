@@ -1,0 +1,35 @@
+page 1 - melting ? 
+       - hidden title revealing the hidden name ? 
+       
+
+page 2 - figure out what is going on with the typing line being so far away
+       
+page3 - make the text larger, fit together better, font, etc. 
+      - make the STOP a tag appear after a certain amount of time
+      
+page 4 - figure out why the a tag at the end disappers
+       - determine how many images I have 
+       - mess with angles to give the desired effect
+       
+page 5 - figure out how I want this to be layed out
+       - research into the topic of creative / academic burnout
+       - would it be cool for it to have a scroll down effect animation? 
+       - jquery
+       
+page 6 - set up a firebase database for people to type messages in
+
+page 7 - set up references page
+
+page 8 - set up about page 
+
+-more p5 sketches
+-jquery for interactivity 
+
+-sound effects for typing like that one game why am i dead at sea
+
+
+BEFORE FINAL PORTFOLIO
+  - add sound effects for the typing 
+  - see if I can make the STOP effect my original idea? 
+  - fix page 4 interviews, make it obvious it is interviews // fix blue text 
+  - make page 5 ? 
