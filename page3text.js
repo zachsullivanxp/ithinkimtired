@@ -107,7 +107,7 @@ let customfont;
 
 function preload() {
   customfont = loadFont(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Welbut__.ttf?v=1682548618390"
+    "Welbut__.ttf"
   );
 }
 

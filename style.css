@@ -5,7 +5,10 @@ body {
 
 @font-face {
   font-family: "textfont";
-  src: "/Users/zachsullivan/Desktop/NEW PORTFOLIO FOLDER 2024-2025/ithinkimtired/Welbut__.ttf"
+  src: url("Welbut__.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .references {
