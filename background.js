@@ -56,37 +56,37 @@ let angleZ10 = 0;
 
 function preload() {
   img = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-04-24%20at%203.23.55%20PM.png?v=1682375224980"
+    "images/tired_1.png"
   );
   img1 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-01-25%20at%203.25.33%20PM.png?v=1682375231742"
+    "images/tired_2.png"
   );
   img2 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202022-12-12%20at%208.56.05%20PM.png?v=1682375234756"
+    "images/tired_3.png"
   );
   img3 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Image%20Project%20Final%20Image.png?v=1682546827477"
+    "images/tired_4.png"
   );
   img4 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-04-26%20at%203.02.44%20PM.png?v=1682546867499"
+    "images/tired_5.png"
   );
   img5 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-04-26%20at%203.15.39%20PM.png?v=1682547443109"
+    "images/tired_6.png"
   );
   img6 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-04-26%20at%203.13.46%20PM.png?v=1682547525248"
+    "images/tired_7.png"
   );
   img7 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-04-26%20at%203.15.03%20PM.png?v=1682547534536"
+    "images/tired_8.png"
   );
   img8 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/Screen%20Shot%202023-04-26%20at%203.11.46%20PM.png?v=1682547558211"
+    "images/tired_9.png"
   );
   img9 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/IMG_1517.JPG?v=1682548161362"
+    "images/tired_10.png"
   );
   img10 = loadImage(
-    "https://cdn.glitch.global/f228fa8a-791a-407b-9c97-42166802efcf/IMG_2491.png?v=1682548150646"
+    "images/tired_10.png"
   );
 }
 
